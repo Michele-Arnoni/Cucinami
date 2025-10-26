@@ -1,6 +1,6 @@
 # cucinami
 
-A new Flutter project.
+A FLUTTER PROJECT BY Michele Arnoni.
 
 ## Getting Started
 
