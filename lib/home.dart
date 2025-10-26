@@ -52,7 +52,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
     final screenHeight = MediaQuery.of(context).size.height;
-    final isKeyboardVisible = MediaQuery.of(context).viewInsets.bottom > 0; // 👈 controllo tastiera
+    final isKeyboardVisible = MediaQuery.of(context).viewInsets.bottom > 0; // controllo tastiera
 
     return Scaffold(
       body: Column(
@@ -141,7 +141,7 @@ class _HomeState extends State<Home> {
 
           SizedBox(height: screenHeight * 0.03),
 
-          // 👇 Mostro il pulsante solo se la tastiera NON è visibile
+          // Mostro il pulsante solo se la tastiera NON è visibile
           if (!isKeyboardVisible)
             SizedBox(
               width: 0.8 * screenWidth,
